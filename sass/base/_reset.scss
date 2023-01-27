@@ -1,0 +1,18 @@
+* , ::after , ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus {
+    outline-offset: 2px;
+}
+html {
+    height: 10%;
+    scroll-behavior: smooth;
+}
+body {
+    height: 100%;   
+}
+main {
+    flex-grow: 1;
+}
